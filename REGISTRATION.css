@@ -1,0 +1,123 @@
+body {
+    background-color:#bd19ad;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 10vh 0 0 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+  }
+  
+  .container {
+    width: 100%;
+    min-height: 70vh;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  table {
+    width: 90%;
+    margin: 50px auto;
+    background-color: #f3bbf3;
+    border-width: 0.2rem;
+  }
+  
+  table.list {
+    text-align: center;
+    width: 100%;
+    border-style:solid;
+  }
+  
+  td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 20px 15px;
+  }
+  
+  tr:nth-child(even),
+  table.list thread > tr {
+    background-color: rgb(201, 196, 196);
+  }
+  
+  input[type="text"] {
+    width: 61%;
+    height: 10px;
+    padding: 10px 5px;
+    margin: 0px 0 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+  }
+  input[type="date"]{
+    width: 40%;
+    height: 10px;
+    border: white;
+    padding: 10px 5px;
+  display: inline-block;
+  border-radius: 4px;
+}
+input[type="email"]{
+    width: 40%;
+    height: 10px;
+    border: white;
+    padding: 10px 5px;
+  display: inline-block;
+  border-radius: 4px;
+}
+  input[type="number"]{
+      width: 40%;
+      height: 10px;
+      border: white;
+      padding: 10px 5px;
+    display: inline-block;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    background: #eee;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  button:hover {
+    background: #ee0fb2;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    background: #ee05d3;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+  }
+  
+  .input-part {
+    font-size: 1.1rem;
+  }
+  
+  button {
+    background: #010616;
+    color: white;
+    padding: 6px 8px;
+    margin: 5px 0 5px;
+    display: inline-block;
+    border-radius: 2px;
+    font-size: 1rem;
+    cursor: pointer;
+  }

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="REGISTRATION.css">
+    <script src="REGISTRATION.js" defer> </script>
+    <title>Student Registration System</title>
+</head>
+<body>
+    <h1 style="color: aliceblue;">STUDENT REGISTRATION SYSTEM</h1>
+    <div class="container center">
+        <table>
+            <tr>
+                <td>
+                    <form class="input-part" autocomplete="off" onsubmit="onFormSubmit()">
+                        <div>
+                            <label for="studentName">Student Name</label>&nbsp;&nbsp;&nbsp;
+                            <input type="text" placeholder="" name="studentName" id="studentName" required>
+                        </div><br>
+                        <div>
+                        <label for="dob">Date of Birth</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="date" name="dob" id="dob">
+                        </div><br>
+                        
+                        <div>
+                            <label for="collegeName">College Name</label>&nbsp;&nbsp;
+                            <input placeholder="" type="text" name="collegeName" id="collegeName">
+                        </div><br>
+                        <div>
+                            <label for="email">Email </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input placeholder="" type="email" name="email" id="email" required>
+                        </div><br>
+                        <div>
+                            <label for="Mob">Mobile No.</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input placeholder="" type="number" name="Mob" id="Mob" required>
+                        </div><br>
+                        <div>
+                            <label for="Addr">Address    </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input placeholder="" type="text" name="Addr" id="Addr">
+                        </div>
+                        
+                        <div class="form-btns">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Student Name</th>
+                                <th>DOB</th>
+                                <th>College Name</th>
+                                <th>Email</th>
+                                <th>Mobile number</th>
+                                <th>Address</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
